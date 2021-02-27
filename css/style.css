@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Colors */
+/* Font Size */
+/* Global */
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url("../images/bg-pattern-top.svg") top -400px left -100px no-repeat, url("../images/bg-pattern-bottom.svg") bottom -400px right -100px no-repeat;
+  background-color: #19a2ae;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 95vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Card */
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.card__header-image {
+  width: 450px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__body {
+  position: relative;
+  bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.card__body .card__body-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card__body .card__body-name {
+  font-size: 18px;
+  margin: 1rem 0 0.5rem 0;
+  color: #2d3248;
+}
+
+.card__body .card__body-location {
+  color: #969696;
+}
+
+.card__body-name .card__body-age {
+  display: inline-block;
+  font-weight: normal;
+  color: #969696;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.card__footer h3 {
+  font-size: 18px;
+}
+
+.card__footer h3 p:first-child {
+  color: #2d3248;
+}
+
+.card__footer h3 p:last-child {
+  color: #6a6f81;
+}
+
+.card__footer-followers-sub,
+.card__footer-links-sub,
+.card__footer-photos-sub {
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fff;
+}
